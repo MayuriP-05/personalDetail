@@ -10,7 +10,7 @@
       <fieldset>
         <legend>Personal Details</legend>
         <label for="hey">First name</label>
-        <input id="a" name="hey" /> <br />
+        <input type="text" id="a" name="hey" /> <br />
         <br />
         <label for="mName">Middle Name</label>
         <input id="a" name="mName" /> <br />
@@ -20,7 +20,7 @@
         <br />
         <label for="course">Course : </label>
         <select name="c_name" id="c_nam">
-          <option value="curse">Course</option>
+          <option value=" " disabled selected>Course</option>
           <option value="bca">BCA</option>
           <option value="bba">BBA</option>
           <option value="btech">B.tech</option>
@@ -38,6 +38,7 @@
         <input type="radio" id="other" name="gender" value="Other" />
         <label for="other">Other</label><br />
         <br />
+
         <label for="dob">DOB</label>
         <input type="datetime-local" name="date-t" id="e" /> <br />
         <br />
@@ -52,7 +53,7 @@
         /><br />
         <br />
         <label for="address">Address:</label> <br />
-        <textarea id="address" name="address" cols="50" rows="5"></textarea
+        <textarea id="address" name="address" cols="50" rows=""></textarea
         ><br />
         <br />
         <label for="email">Email:</label>
@@ -83,8 +84,9 @@
         <label for="color">Choose Color:</label>
         <input type="color" id="color" name="color" /><br />
         <br />
-        <button type="button">Reset</button>
-        <button type="button">Submit</button>
+        <!-- <input type="button" value="reset"> -->
+        <button type="submit">Reset</button>
+        <button type="submit">Submit</button>
       </fieldset>
     </form>
   </body>
